@@ -15,7 +15,9 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      
     />
+ 
   </head>
 
   <body>
@@ -65,7 +67,8 @@
         <h1>Formattazione del codice</h1>
         <p>
           Il testo dell'articolo dovrà essere formattato per identificare tutte
-          le parti da <span id="viola">selezionare con i CSS</span>.Perciò i passi saranno:
+          le parti da <span id="viola">selezionare con i CSS</span>.Perciò i
+          passi saranno:
         </p>
         <ol>
           <li>
@@ -83,43 +86,43 @@
           la diffusione pressochè totale.
         </p>
       </div>
-      <table>
+      <table id="tabella">
         <caption>
           Diffusione dei CSS
         </caption>
 
         <tr>
           <th>Anno</th>
-          <th>% di utilizzo</th>
-          <th>Supporto browsers</th>
+          <th>% di <br />utilizzo</th>
+          <th>Supporto <br />browsers</th>
         </tr>
-        <tr>
+        <tr class="righe">
           <td>2000</td>
           <td>20%</td>
           <td>17%</td>
         </tr>
-        <tr>
+        <tr class="righe">
           <td></td>
           <td></td>
           <td></td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="righe">
           <td>2002</td>
           <td>35%</td>
           <td>22%</td>
         </tr>
-        <tr>
+        <tr class="righe">
           <td>2004</td>
           <td>45%</td>
           <td>42%</td>
         </tr>
-        <tr>
+        <tr class="righe">
           <td>2008</td>
           <td>80%</td>
           <td>51%</td>
         </tr>
-        <tr>
+        <tr class="righe">
           <td>2012</td>
           <td>100%</td>
           <td>76%</td>
@@ -128,33 +131,43 @@
 
       <p>
         Un test di validazione potrà essere fatto tramite il
-        <a href="#">tool online </a>dedicato allo scopo. Una volta ottimizzato
-        il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri
-        developers come loro:
+        <a href="#" style="color: blue">tool online </a>dedicato allo scopo. Una
+        volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed
+        essere stati dei veri developers come loro:
       </p>
       <iframe
-        width="460"
-        height="215"
+        width="560"
+        height="315"
         src="https://www.youtube.com/watch?v=tH45dMA8BJc"
       ></iframe>
-      <h2>Novità</h2>
-      <p>
-        Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra
-        newsletter:
-      </p>
-      <input type="email" placeholder="insrisci l'email" />
-      <button>Iscriviti!</button>
+      <section id="sec1">
+        <h2 style="text-align: center">Novità</h2>
+        <p>
+          Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
+          nostra newsletter:
+        </p>
+        <span id="span"
+          ><input type="email" placeholder="insrisci l'email" />
+          <button>Iscriviti!</button></span
+        >
+      </section class>
       <h2>Articoli correlati</h2>
-      <a href="#">Validare il codice HTML</a>
-      <p>Categoria: develop</p>
-      <p>Data: 18-9-2020</p>
-      <a href="#">Correggere la sintassi</a>
-      <p>Categoria develop</p>
-      <p>Data: 16-9-2020</p>
-      <a href="#">Meno Kb nella pagina</a>
+      <section>
+        <a href="#">Validare il codice HTML</a>
+        <p>Categoria: develop</p>
+        <p>Data: 18-9-2020</p>
+      </section>
+      <section>
+        <a href="#">Correggere la sintassi</a>
+        <p>Categoria develop</p>
+        <p>Data: 16-9-2020</p>
+      </section>
+      <section>
+        <a href="#">Meno Kb nella pagina</a>
 
-      <p>Categoria: ottimizzazione</p>
-      <p>Data:30-9-2020</p>
+        <p>Categoria: ottimizzazione</p>
+        <p>Data:30-9-2020</p>
+      </section>
     </main>
     <footer>
       <div>
@@ -168,5 +181,6 @@
         </p>
       </div>
     </footer>
+     <div id="image"></div>
   </body>
 </html>

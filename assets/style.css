@@ -54,10 +54,53 @@ ol {
 }
 caption {
   font-weight: bold;
+  font-style: italic;
 }
 th {
+  padding-right: 84px;
   background-color: blue;
   color: white;
-  height: 42px;
-  te
+  height: 51px;
+  padding-top: 22px;
+  padding-left: 91px;
+}
+.righe {
+  text-align: center;
+  padding: 20px;
+}
+iframe {
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#sec1 {
+  border: solid 1px black;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+#span1 {
+  display: block;
+  margin: 20px;
+}
+.articoli {
+  border: solid gray 1px;
+}
+footer {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  margin: 30px;
+  padding: 20px;
+}
+#image {
+  width: 350px;
+  height: 350px;
+  border: solid 1px black;
+  background-image: (https://www.montagnaestate.it/wp-content/uploads/Kleines-Walsertal-paesaggio-estivo-montagne-austria.jpg);
+  background-size: cover;
 }
